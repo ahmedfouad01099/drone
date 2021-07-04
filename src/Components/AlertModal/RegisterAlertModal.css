@@ -1,0 +1,36 @@
+.RegisterAlertModal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border-bottom: 2px solid blue;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 25px;
+  outline: none;
+  padding: 12px;
+  /* margin-right: -50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.HashModal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  /* border-bottom: 2px solid blue; */
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 50px;
+  outline: none;
+  padding: 20px;
+  /* margin-right: -50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OverlayRegisterAlertModal {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

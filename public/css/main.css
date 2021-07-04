@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/* colors */
+
+
+.mainbg{
+    background-color: #352CF7 !important;
+}
+
+.maincolor{
+    color: #352CF7 !important;
+}
+
+/* colors */
+
+
+/* fonts */
+
+.rofont {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* fonts */
+
+
+/* navbar transparent*/
+.navbar {
+    z-index: +999999;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.nav-link:hover {
+    
+    color: #352CF7 !important;
+    cursor: pointer;
+}
+
+.activeLink{
+    color: #352CF7 !important;
+}
+
+
+/* navbar transparent*/
+
+
+/* navbar dark*/
+
+.navbar-dark{
+    background-color: black !important;
+}
+
+.navbar-dark .nav-link {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+
+/* navbar */
+
+
+
+
+/* footer */
+
+footer{
+    height: 300px;
+    background-color: black;
+    color: white !important;
+
+}
+
+.foot-link {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+.foot-link:hover {
+    
+    color: #352CF7 !important;
+    cursor: pointer;
+}
+
+.social-link{
+    color: white !important;
+    margin-right: 10px;
+}
+
+/* footer */
+
+
+
+/* login , register , forget pass */
+
+.logbody{
+    height: 100vh;
+    background-image: url('../images/logbg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.loginform{
+    padding: 30px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+.loginform a:hover{
+    text-decoration: none;
+    color: #352CF7;
+}
+
+.formtitle{
+    font-size: 25px;
+    
+    
+}
+
+.lognavlink{
+    color: #352CF7;
+}
+
+.loginform input{
+    outline: 0px;
+    border: 0px ;
+    border-bottom: 1px solid #352CF7;
+}
+
+.loginform input:focus{
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 1px solid #352CF7;
+}
+
+
+.submitbtn{
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+   
+}
+
+
+.loglink{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #352CF7;
+    padding: 4px;
+
+}
+/* login , register , forget pass */
+
+
+
+
+/* technology */
+.techleft{
+    height: 100vh;
+    background-color: #EBE6E6;
+    
+}
+
+.techright{
+    height: 100vh;
+    background-color: whitesmoke;
+    
+}
+
+
+.technologycontent{
+    margin-top: 100px;
+}
+/* technology */
+
+
+
+/* contact us */
+.contactbody{
+    height: 100vh;
+    background-image: url('../images/contactbg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* contact us */
+
+
+
+/* Home Page */
+
+header{
+
+    height: 100vh;
+    background-image: url('../images/homeheader.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.homeheadercontent{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+}
+
+.homeleft{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('../images/jason-blackeye-307736.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.homeleft{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('../images/jason-blackeye-307736.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.homeright{
+    height: 100vh;
+    background-color: whitesmoke;
+    
+}
+
+/* Home Page */
+
+
+/* application header content */
+
+.applicationheadercontent{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    text-align: center;
+}
+/* application header content */
+
+
+
+
+/* order */
+
+.orderbody{
+    height: 100vh;
+    background-image: url('../images/orderback.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.roundedform{
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.orderspan{
+    color: #F70707;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+/* order */
+
+
+/* Map */
+
+.mapbody{
+    height: 100vh;
+    /* background-image: url('../images/mapimg.png'); */
+    /* background-position: center;
+    background-size: cover; */
+}
+
+.mapbg iframe{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    direction: rtl;
+}
+
+
+.searchloc{
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.mapsubmit{
+    
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+}
+
+/* Map */
+
+
+
+/* app details */
+
+.appdetailform{
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 30px;
+    background-color: white;
+    border-radius: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.appdetailform a:hover{
+    text-decoration: none;
+    color: #352CF7;
+}
+
+.formtitle{
+    font-size: 25px;
+    
+    
+}
+
+.lognavlink{
+    color: #352CF7;
+}
+
+.appdetailform input{
+    outline: 0px;
+    border: 0px ;
+    border-bottom: 1px solid #352CF7;
+}
+
+.appdetailform input:focus{
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 1px solid #352CF7;
+}
+
+.btn-check{
+    opacity: .4;
+}
+/* app details */
+
+
+/* carecontainer */
+.carecontainer{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.care{
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-left: 25px;
+    padding: 15px;
+}
+
+
+.careactions{
+    width: 50%;
+    margin: auto;
+}
+/* carecontainer */

@@ -1,0 +1,107 @@
+.body {
+  background-image: url("../../assets/images/Dron.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  /* overflow: auto; */
+}
+
+.plan1 {
+  background-image: url("../../assets/images/plan1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+  margin-right: 15px;
+  max-width: 30%;
+  border-radius: 5px;
+  padding: 20px 0;
+  height: 300px;
+  font-size: 18px;
+}
+
+.Container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.para {
+  border-bottom: 1px solid;
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .plan1 {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  .container {
+    top: 112%;
+  }
+  .body {
+    height: auto !important;
+  }
+  .Container {
+    margin-top: 100px;
+  }
+}
+
+.button {
+  background-color: #0000b5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #9999ff;
+  color: #4651e4;
+}
+
+.Height {
+  height: 100%;
+}
+
+/* @media screen and (max-width: 576px) and (max-height: 640px) { */
+
+@media screen and (max-width: 576px) and (max-height: 640px) {
+  .body {
+    height: 215%;
+  }
+  .plan1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .container {
+    top: 112%;
+  }
+  .Height {
+    height: auto !important;
+  }
+  .Container {
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rowMobile {
+    max-width: 80%;
+    display: block !important;
+  }
+}
